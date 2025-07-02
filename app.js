@@ -9,7 +9,7 @@ const projectRoutes = require('./routes/projectRoutes');
 const authRoutes = require('./routes/authRoutes');
 const messageRoutes = require('./routes/messageRoutes'); // Baru ditambahkan
 const corsOptions = {
-  origin: 'https://myserver-production-5f38.up.railway.app',
+  origin: ['http://localhost:3000','https://frontend-kamu.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Sesuaikan dengan kebutuhan
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
