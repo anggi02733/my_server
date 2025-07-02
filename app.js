@@ -9,7 +9,7 @@ const projectRoutes = require('./routes/projectRoutes');
 const authRoutes = require('./routes/authRoutes');
 const messageRoutes = require('./routes/messageRoutes'); // Baru ditambahkan
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://myserver-production-5f38.up.railway.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Sesuaikan dengan kebutuhan
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
